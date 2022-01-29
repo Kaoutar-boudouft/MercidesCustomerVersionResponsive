@@ -1,0 +1,18 @@
+* installation de bootstrap (CDN)
+
+* Les bases de bootstrap :
+
+
+
+                      nombalise.nomclass1.nomclass2......
+          -container
+          -grid system
+
+          -classes bootstrap
+
+* TP site Mercerdes   :
+
+                 Méthodologie :
+                               - diviser la pages en sections
+                               - chaque section se trouve dans  un div class="container"
+ 

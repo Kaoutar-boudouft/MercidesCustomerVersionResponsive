@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="./css/glyphicones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/script.js"></script>
+    <title>TP3</title>
+</head>
+<body style="background-color: black;">
+    <div class="container sticky-top">
+        <header class="p-2" style="background-color: rgb(247, 29, 174);text-align: center;" id="head">
+            <img src="./images/zweiplan-logo-mercedes-benz-20200609.png" style="width: 100px"><h5  class="text-white" style="font-family: cursive;">Costumer Version</h5>
+            <input type="color" value="#F71DAE" id="checkcolor" style="border: 0;"><span> <input type="button" value="ok" style="border: 0;height:32px;background-color: black;color:white;" id="done" onclick="change()"></span>
+            <button value="fa fa-sun-o" onclick="dark()" id="i"><i class="fa fa-sun-o" style="font-weight: 900;font-size: 18pt;cursor: pointer;" id="icon"></i></button>
+          </header>
+    </div>
+    <div class="container">
+        <div class="w-50 mx-auto m-5 text-center">
+            <h1 class="p-4 text-white">Number<span style="color: rgb(247, 29, 174);font-weight: 600;" id="head2"> 1 </span> Of Cars</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               <!--<ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>-->
+                <div class="carousel-inner w-100 h-100">
+                  <div class="carousel-item active w-100 h-100">
+                    <img src="./images/White-SUV-PNG.png" class=" h-100 w-100 mx-auto" style=" height: 300px;">
+                  </div>
+                  
+                  <div class="carousel-item w-100 h-100">
+                    <img src="./images/1595333655-Range-Rover-HSE-Pink-Gloss-wrap-5--removebg-preview.png" class=" h-100 w-100 mx-auto" style="height: 300px;">
+                  </div>
+                  <div class="carousel-item w-100 h-100">
+                    <img src="./images/rzdupsa_1476814-removebg-preview.png" class=" h-100 w-100 mx-auto" style="height: 300px;">
+                  </div>
+                  <div class="carousel-item w-100 h-50">
+                    <img src="./images/l8scbvWdfS (2).png" class=" h-100 w-100 mx-auto" style="height: 300px;">
+                  </div>
+                  <div class="carousel-item w-100 h-50">
+                    <img src="./images/purepng.com-yellow-lamborghini-aventador-carcarvehicletransportlamborghini-961524660480glnlw-removebg-preview.png" class=" h-100 w-100 mx-auto" style="height: 300px;">
+                  </div>
+                  <div class="carousel-item w-100 h-50">
+                    <img src="./images/jaguar_f-type-s-coupe-awd-british-design-edition-2016_r9-removebg-preview.png" class=" h-100 w-100 mx-auto" style="height: 300px;">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+    </div>
+    <div class="container">
+        <section class="bg-dark text-center text-white p-4">
+            <h2 class="m-4">The<span style="color: rgb(247, 29, 174);font-weight: 600;" id="head3"> Best </span> Or Nothing</h1>
+            <iframe class="p-3 m-4 w-75 mx-auto" style="height:315px" src="https://www.youtube.com/embed/ekgUjyWe1Yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </div>
+    <div class="container sticky-top">
+        <footer style="background-color: rgb(247, 29, 174);" class="p-4 text-white text-center" id="head1">
+            <h6>2019 © Mercedes-Benz</h6>
+        </footer>
+    </div>
+</body>
+</html>
